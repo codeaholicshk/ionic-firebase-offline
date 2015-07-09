@@ -1,0 +1,12 @@
+<ion-view view-title="Connection Status">
+  <ion-content>
+    <div class="list card" ng-class="{''}">
+      <div class="item">
+        Connected To Internet:
+        <span ng-class="{'positive': connected, 'assertive': !connected}">
+          {{ connected }}
+        </span>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
